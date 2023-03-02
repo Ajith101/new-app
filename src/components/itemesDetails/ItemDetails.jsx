@@ -106,7 +106,7 @@ export const ItemDetails = () => {
           <div className="border=[1px] flex flex-col gap-3 border-red-500 px-10">
             {show.length !== 0 ? (
               <>
-                <h1 className="text-xl font-bold">Comments</h1> {show}
+                <h1 className="text-xl font-bold">User Comments</h1> {show}
               </>
             ) : undefined}
           </div>
